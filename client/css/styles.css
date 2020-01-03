@@ -1,0 +1,40 @@
+/*all our css will appear here!*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.card {
+	height: 100px;
+	width: 100px;
+}
+
+#home-section{
+	min-height: 250px;
+}
+
+.visual > div{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	bottom: 0%;
+	
+}
+
+@keyframes jump{
+	/*used to specify animation code*/
+	0%{
+		left: 0%;
+		bottom: 0%;
+	}
+	50%{
+		left: 50%;
+		bottom: 50%;
+
+	}
+	100%{
+		left: 100%;
+		bottom: 0%; 
+	}
+}
